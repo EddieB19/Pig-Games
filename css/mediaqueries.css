@@ -1,0 +1,124 @@
+@media (max-width: 1440px) {
+  .btn--start {
+    font-size: 5rem;
+    width: 70vw;
+  }
+
+  .instruction {
+    left: 23rem;
+    top: 10rem;
+    line-height: 3rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .btn--start {
+    font-size: 4rem;
+    padding: 4.5rem;
+  }
+
+  .instruction {
+    left: 6rem;
+    top: 10rem;
+    line-height: 3rem;
+  }
+
+  main {
+    width: 90rem;
+    height: 50rem;
+  }
+
+  .win-title {
+    top: 15rem;
+    font-size: 3rem;
+    transform: rotateZ(-45deg);
+    z-index: 2;
+  }
+
+  .name {
+    font-size: 2.9rem;
+  }
+
+  .player {
+    padding: 5rem;
+  }
+
+  .btn {
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
+
+  .btn--roll {
+    top: 34rem;
+  }
+
+  .btn--hold {
+    top: 42rem;
+  }
+
+  .btn--new {
+    top: 37rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn--start {
+    font-size: 2.9rem;
+  }
+
+  .instruction {
+    left: 4rem;
+    top: 11rem;
+    line-height: 3rem;
+    font-size: 1.1rem;
+  }
+
+  main {
+    width: 70rem;
+    height: 50rem;
+  }
+
+  .win-title {
+    top: 15rem;
+    font-size: 3rem;
+    transform: rotateZ(-45deg);
+    z-index: 2;
+  }
+
+  .name {
+    font-size: 2.9rem;
+  }
+
+  .player {
+    padding: 5rem;
+  }
+
+  .dice {
+    top: 15rem;
+  }
+
+  .btn {
+    width: 10rem;
+    height: 8rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    line-height: 2rem;
+  }
+
+  .btn::first-letter {
+    margin: 0;
+  }
+
+  .btn--roll {
+    top: 30rem;
+  }
+
+  .btn--hold {
+    top: 40rem;
+  }
+
+  .btn--new {
+    top: 36rem;
+  }
+}
