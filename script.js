@@ -24,12 +24,10 @@ const audio1 = new Audio("./assets/audio/90s-game-ui-6-185099.mp3");
 const audio2 = new Audio("./assets/audio/video-game-bonus-323603.mp3");
 const audio3 = new Audio("./assets/audio/piglevelwin2mp3-14800.mp3");
 const audio4 = new Audio("./assets/audio/90s-game-ui-4-185097.mp3");
-const audio5 = new Audio("./assets/audio/game-start-317318.mp3");
 
 let scores, currentScore, activePlayer, playing;
 
 const newGame = function () {
-  audio5.play();
   dice.classList.add("hidden");
   btnNew.classList.add("hidden");
   btnHold.classList.remove("hidden");
@@ -96,7 +94,7 @@ btnHold.addEventListener("click", function () {
     document.getElementById(`score--${activePlayer}`).textContent =
       scores[activePlayer];
 
-    if (scores[activePlayer] >= 100) {
+    if (scores[activePlayer] >= 10) {
       playing = false;
       dice.classList.add("hidden");
       btnNew.classList.remove("hidden");
