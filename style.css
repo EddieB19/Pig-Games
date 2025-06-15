@@ -91,15 +91,14 @@ main {
 
 .win-title {
   position: absolute;
-  top: 5rem;
+  top: 1rem;
   font-size: 2rem;
   color: #ffd154;
+  z-index: 2;
 }
 
 .crown {
-  position: absolute;
-  left: -6rem;
-  top: -1.3rem;
+  text-align: center;
 }
 
 .player {
@@ -226,6 +225,7 @@ main {
   transform: translateX(-50%);
   height: 10rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
 }
 
 .player--winner {
